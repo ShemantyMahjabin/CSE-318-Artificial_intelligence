@@ -1,0 +1,53 @@
+iris_results = {
+    'IG': {
+        0: {'accuracy': 94.17, 'std': 4.44, 'nodes': 14.5, 'depth': 6.0},
+        2: {'accuracy': 61.5, 'std': 5.87, 'nodes': 3.0, 'depth': 2.0},
+        3: {'accuracy': 94.67, 'std': 3.96, 'nodes': 5.1, 'depth': 3.0},
+        4: {'accuracy': 94.67, 'std': 3.96, 'nodes': 8.5, 'depth': 4.0},
+        5: {'accuracy': 94.33, 'std': 4.47, 'nodes': 12.4, 'depth': 5.0},
+        10: {'accuracy': 94.17, 'std': 4.44, 'nodes': 14.5, 'depth': 6.0},
+    },
+    'IGR': {
+        0: {'accuracy': 95.0, 'std': 3.67, 'nodes': 15.4, 'depth': 6.3},
+        2: {'accuracy': 61.5, 'std': 5.87, 'nodes': 3.0, 'depth': 2.0},
+        3: {'accuracy': 94.67, 'std': 3.96, 'nodes': 5.1, 'depth': 3.0},
+        4: {'accuracy': 95.17, 'std': 3.82, 'nodes': 8.5, 'depth': 4.0},
+        5: {'accuracy': 95.17, 'std': 3.5, 'nodes': 11.8, 'depth': 5.0},
+        10: {'accuracy': 95.0, 'std': 3.67, 'nodes': 15.4, 'depth': 6.3},
+    },
+    'NWIG': {
+        0: {'accuracy': 94.17, 'std': 4.44, 'nodes': 14.5, 'depth': 6.0},
+        2: {'accuracy': 61.5, 'std': 5.87, 'nodes': 3.0, 'depth': 2.0},
+        3: {'accuracy': 94.67, 'std': 3.96, 'nodes': 5.1, 'depth': 3.0},
+        4: {'accuracy': 94.67, 'std': 3.96, 'nodes': 8.5, 'depth': 4.0},
+        5: {'accuracy': 94.33, 'std': 4.47, 'nodes': 12.4, 'depth': 5.0},
+        10: {'accuracy': 94.17, 'std': 4.44, 'nodes': 14.5, 'depth': 6.0},
+    },
+}
+
+adult_results = {
+    'IG': {
+        0: {'accuracy': 80.2263, 'std': 0.5689, 'nodes': 8827.2, 'depth': 32.8},
+        2: {'accuracy': 75.0539, 'std': 0.3501, 'nodes': 7.0, 'depth': 2.0},
+        3: {'accuracy': 82.0222, 'std': 0.2585, 'nodes': 66.4, 'depth': 3.0},
+        4: {'accuracy': 83.4502, 'std': 0.3437, 'nodes': 372.1, 'depth': 4.0},
+        5: {'accuracy': 83.4568, 'std': 0.3239, 'nodes': 955.6, 'depth': 5.0},
+        10: {'accuracy': 81.8424, 'std': 0.5117, 'nodes': 4907.0, 'depth': 10.0},
+    },
+    'IGR': {
+        0: {'accuracy': 81.607, 'std': 0.5319, 'nodes': 8609.9, 'depth': 55.8},
+        2: {'accuracy': 79.3229, 'std': 0.3386, 'nodes': 3.0, 'depth': 2.0},
+        3: {'accuracy': 80.5188, 'std': 0.5029, 'nodes': 7.0, 'depth': 3.0},
+        4: {'accuracy': 81.1918, 'std': 0.4059, 'nodes': 16.8, 'depth': 4.0},
+        5: {'accuracy': 81.699, 'std': 0.3332, 'nodes': 36.7, 'depth': 5.0},
+        10: {'accuracy': 84.4563, 'std': 0.2636, 'nodes': 371.4, 'depth': 10.0},
+    },
+    'NWIG': {
+        0: {'accuracy': 81.0923, 'std': 0.4229, 'nodes': 8100.9, 'depth': 37.2},
+        2: {'accuracy': 79.3925, 'std': 0.3308, 'nodes': 3.0, 'depth': 2.0},
+        3: {'accuracy': 79.4439, 'std': 0.3264, 'nodes': 11.0, 'depth': 3.0},
+        4: {'accuracy': 83.5944, 'std': 0.2086, 'nodes': 27.4, 'depth': 4.0},
+        5: {'accuracy': 83.611, 'std': 0.2155, 'nodes': 61.8, 'depth': 5.0},
+        10: {'accuracy': 84.3419, 'std': 0.3645, 'nodes': 1312.4, 'depth': 10.0},
+    },
+}
